@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D545E010189963FA00977F31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D545DFFB189963FA00977F31 /* AppDelegate.m */; };
-		D545E011189963FA00977F31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D545DFFC189963FA00977F31 /* Main.storyboard */; };
-		D545E013189963FA00977F31 /* DraggableViewDemo-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D545E000189963FA00977F31 /* DraggableViewDemo-Info.plist */; };
 		D545E014189963FA00977F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D545E002189963FA00977F31 /* InfoPlist.strings */; };
 		D545E015189963FA00977F31 /* firstImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D545E004189963FA00977F31 /* firstImage.jpg */; };
 		D545E016189963FA00977F31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D545E005189963FA00977F31 /* Images.xcassets */; };
@@ -17,7 +15,6 @@
 		D545E018189963FA00977F31 /* secondImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D545E007189963FA00977F31 /* secondImage.jpg */; };
 		D545E019189963FA00977F31 /* thirdImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D545E008189963FA00977F31 /* thirdImage.jpg */; };
 		D545E01A189963FA00977F31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D545E00A189963FA00977F31 /* ViewController.m */; };
-		D545E01C189963FA00977F31 /* DraggableViewDemoTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D545E00D189963FA00977F31 /* DraggableViewDemoTests-Info.plist */; };
 		D545E01D189963FA00977F31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D545E00E189963FA00977F31 /* InfoPlist.strings */; };
 		D5805FA21899649A00D077F3 /* DraggableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5805FA11899649A00D077F3 /* DraggableViewTests.m */; };
 		D5805FAA1899680000D077F3 /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5805FA91899680000D077F3 /* DraggableView.m */; };
@@ -42,7 +39,6 @@
 /* Begin PBXFileReference section */
 		D545DFFA189963FA00977F31 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D545DFFB189963FA00977F31 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D545DFFD189963FA00977F31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D545E000189963FA00977F31 /* DraggableViewDemo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DraggableViewDemo-Info.plist"; sourceTree = "<group>"; };
 		D545E001189963FA00977F31 /* DraggableViewDemo-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DraggableViewDemo-Prefix.pch"; sourceTree = "<group>"; };
 		D545E003189963FA00977F31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -95,7 +91,6 @@
 			children = (
 				D545DFFA189963FA00977F31 /* AppDelegate.h */,
 				D545DFFB189963FA00977F31 /* AppDelegate.m */,
-				D545DFFC189963FA00977F31 /* Main.storyboard */,
 				D545E000189963FA00977F31 /* DraggableViewDemo-Info.plist */,
 				D545E001189963FA00977F31 /* DraggableViewDemo-Prefix.pch */,
 				D545E002189963FA00977F31 /* InfoPlist.strings */,
@@ -236,15 +231,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D545E01C189963FA00977F31 /* DraggableViewDemoTests-Info.plist in Resources */,
 				D545E015189963FA00977F31 /* firstImage.jpg in Resources */,
 				D545E019189963FA00977F31 /* thirdImage.jpg in Resources */,
 				D545E016189963FA00977F31 /* Images.xcassets in Resources */,
-				D545E013189963FA00977F31 /* DraggableViewDemo-Info.plist in Resources */,
 				D545E018189963FA00977F31 /* secondImage.jpg in Resources */,
 				D545E014189963FA00977F31 /* InfoPlist.strings in Resources */,
 				D545E01D189963FA00977F31 /* InfoPlist.strings in Resources */,
-				D545E011189963FA00977F31 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,14 +280,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D545DFFC189963FA00977F31 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D545DFFD189963FA00977F31 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D545E002189963FA00977F31 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
