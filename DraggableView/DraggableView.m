@@ -38,13 +38,13 @@
     self.imageView.frame = CGRectMake(kBorder, kBorder, self.frame.size.width-kBorder*2, self.frame.size.height-kBorder*2);
 }
 
-// FIXME observe if changes also the center
-
-- (void)setCenter:(CGPoint)center
-{
-    [super setCenter:center];
-    originalCenter = self.center;
-}
+//// FIXME observe if changes also the center
+//
+//- (void)setCenter:(CGPoint)center
+//{
+//    [super setCenter:center];
+//    originalCenter = self.center;
+//}
 
 - (void)setUp
 {
